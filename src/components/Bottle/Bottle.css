@@ -1,0 +1,18 @@
+.bottle{
+    border: 2px solid seagreen;
+    margin: 15px;
+    padding: 15px;
+    border-radius: 10px;
+}
+.bottle img{
+    height: 300px;
+    width: 300px;
+    cursor: pointer;
+    border-radius: 15px;
+    filter: grayscale(1);
+}
+.bottle img:hover{
+    filter: grayscale(0);
+    transition: 0.5s;
+    transform: scale(0.95);
+}
